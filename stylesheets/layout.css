@@ -55,7 +55,7 @@ h5 {
 h2 + p,
 h3 + p,
 h4 + p,
-h5 + p,{
+h5 + p {
     margin-top: 10px;
 }
 
