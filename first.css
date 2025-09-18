@@ -1,0 +1,41 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  padding: 80px 5px 36px 20px;
+  font-weight: bolder;
+  line-height: 24px;
+}
+.lid {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 0px 5px 90px 20px;
+  line-height: 20px;
+}
+p {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 28px 20px;
+  line-height: 23px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 19px;
+  padding: 64px 5px 28px 20px;
+  font-weight: bold;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 56px 5px 28px 20px;
+  line-height: 19px;
+  font-weight: bold;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 52px 5px 28px 20px;
+  line-height: 17px;
+  font-weight: bold;
+}
