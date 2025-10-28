@@ -9,78 +9,78 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: grayscale;
 }
-h1, h2, h3, h4, h5, p, blockquote, ol, ul {
+  #index h1, #index h2, #index h3, #index h4, #index h5, #index p, #index blockquote, #index ol, #index ul {
     width: 700px;
     margin: 0 auto;
 }
-p, blockquote, ol, ul {
+#index p, #index blockquote, #index ol, #index ul {
     font-size: 22px;
     line-height: 34px;
     margin-bottom: 50px;
 }
-h1+p {
+#index h1+p {
    font-size: 24px;
     color: rgba(0, 0, 0, 0.4);  
 }
-a {
+#index a {
     color: inherit;
 }
-h1, h2, h3, h4, h5 {
+#index h1,#index h2, #index h3, #index h4, #index h5 {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
     font-family: 'PT Sans Caption, 'PT sans-serif
 }
-h1 {
+#index h1 {
     font-size: 38px;
     line-height: 44px;
     margin: 50px auto;
 }
-h2 {
+#index h2 {
     font-size: 32px;
     line-height: 36px;
     margin-top: 42px;
 }
-h3 {
+#index h3 {
     font-size: 28px;
     line-height: 32px;
     margin-top: 36px;
 }
-h4 {
+#index h4 {
     font-size: 24px;
     line-height: 28px;
     margin-top: 32px;
 }
-h5 {
+#index h5 {
     font-size: 22px;
     line-height: 24px;
     margin-top: 28px;
 }
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p {
+#index h2 + p,
+#index h3 + p,
+#index h4 + p,
+#index h5 + p {
     margin-top: 10px;
 }
 
-img {
+#index img {
     width: 1024px;
     margin: 0 auto;
     display: block;
 }
-ul {
+#index ul {
     list-style-type: disc;
     padding-left: 26px;
 }
-ol {
+#index ol {
     list-style-type: disc;
     padding-left: 26px;
 }
 
-blockquote {
+#index blockquote {
     font-style: italic;
     position: relative;
 }
-blockquote::before {
+#index blockquote::before {
     content: '';
     position: absolute;
     width: 3px;
@@ -125,6 +125,10 @@ nav.menubar img {
  width: 250px;
  margin: 0;   
 }
+nav.menubar img {
+ width: 250px;
+ margin: 0;   
+}
 nav.menubar {
     display: flex;
     justify-content: space-between;
@@ -143,4 +147,28 @@ nav.menubar a {
    nav.menubar a:hover {
     color: black;
    transition: 0.6s;
+   }
+
+   /* стили для about  */
+   #about::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: url('../Archive/1440.png');
+ width: 1440px;
+ height: 3120px;
+ opacity: 0.2;
+   }
+   #about section {
+    display: flex;
+    gap: 4%;
+    margin-top: 130px;
+   }
+   #about section div {
+    overflow: hidden;
+    width: 48%;
+   }
+   #about section img {
+    width: 164%;
    }
